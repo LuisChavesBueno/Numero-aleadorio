@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Aleadorio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="css/estilo-mobile.css">
+</head>
+<body>
+    <section>
+        <div>
+            <span class="number" onclick="somar()"><</span> 
+            
+            <span id="result">1</span> 
+            
+            <span class="number" onclick="subtrair()">></span>
+        
+        </div>
+
+        <p> 1 ate 5</p>
+        <p id="erro">Volor incorredo , Por favor, mude seu número  para o novo numero  (1 ate 5).</p>
+        <button onclick="ClicouBotao()">Enviar</button>
+
+        <h1>Tente Adivinhar o Número que estou Pesado</h1>
+    
+        <section>
+            <div id="pessoa" class="numero">
+                <span class="span"></span>
+            </div>
+            
+            <div id="robo" class="numero">
+                <span class="span"></span>
+            
+            </div>
+            <div id="renasfil"></div>
+        </section>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
